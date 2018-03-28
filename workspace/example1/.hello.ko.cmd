@@ -1,0 +1,1 @@
+cmd_/home/aeis/workspace/example1/hello.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/aeis/workspace/example1/hello.ko /home/aeis/workspace/example1/hello.o /home/aeis/workspace/example1/hello.mod.o
